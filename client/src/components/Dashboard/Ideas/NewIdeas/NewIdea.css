@@ -1,0 +1,11 @@
+#ideaForm input,#ideaForm textarea{ 
+    background: #000666!important;
+    border-radius: 10px!important;
+    color: white!important;
+    overflow: auto;
+    display:inline-block;
+    border: 1px solid #9e9e9e;
+}
+#ideaForm{
+    margin: 0 auto; 
+}

@@ -1,0 +1,67 @@
+.dashboard{
+    min-height:  93.4vh;
+    /* position: relative; */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color:white
+}
+
+.dashboard h1{
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+}
+
+
+nav{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#brandLogoStart{
+    color:white!important;
+}
+
+
+.brand-logo{
+    color: rgba(9,100,121,1)!important;
+}
+
+/* .nav-wrapper li{ 
+    padding: 0vh 3vw;
+    color:white!important;
+    cursor: pointer;
+} */
+.nav-wrapper a{ 
+    float: right;
+    display: inline-block;
+    padding: 0vh 3vw;
+    color:white!important;
+    cursor: pointer;
+}
+
+.nav-wrapper li:hover{     
+    color: rgba(2,0,36,1)!important;
+}
+
+
+.nav-wrapper li:active{ 
+    background: gray;
+}
+
+
+.nav-wrapper li:focus{ 
+    background: lightgray;
+}
+
+#loginSvg{
+    height: 40px;
+    width: 40px;
+}
+
+#loginSvg:hover{
+    height: 50px;
+    width: 50px;
+}

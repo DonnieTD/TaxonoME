@@ -1,0 +1,15 @@
+.navLoggedIn{
+    display: inline-block;
+}
+
+.navLoggedOut{
+    display: none;
+}
+
+.routerLoggedIn{
+    height: 91.2vh;
+}
+
+.routerLoggedOut{
+    height: 100vh;
+}
